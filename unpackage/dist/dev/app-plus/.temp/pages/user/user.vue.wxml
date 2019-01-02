@@ -1,0 +1,42 @@
+<template name="de0816d6">
+  <view class="_view data-v-538a6a93 center">
+    <view class="_view data-v-538a6a93 logo" bindtap="handleProxy" hover-class="{{!login ? 'logo-hover' : ''}}" data-eventid="{{'rmt-0'}}" data-comkey="{{$k}}">
+      <image class="_image data-v-538a6a93 logo-img" src="{{login ? uerInfo.avatarUrl :avatarUrl}}"></image>
+      <view class="_view data-v-538a6a93 logo-title">
+        <text class="_text data-v-538a6a93 uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
+        <text class="_text data-v-538a6a93 go-login navigat-arrow" wx:if="{{!login}}"></text>
+      </view>
+    </view>
+    <view class="_view data-v-538a6a93 center-list">
+      <view class="_view data-v-538a6a93 center-list-item border-bottom">
+        <text class="_text data-v-538a6a93 list-icon"></text>
+        <text class="_text data-v-538a6a93 list-text">帐号管理</text>
+        <text class="_text data-v-538a6a93 navigat-arrow"></text>
+      </view>
+      <view class="_view data-v-538a6a93 center-list-item">
+        <text class="_text data-v-538a6a93 list-icon"></text>
+        <text class="_text data-v-538a6a93 list-text">新消息通知</text>
+        <text class="_text data-v-538a6a93 navigat-arrow"></text>
+      </view>
+    </view>
+    <view class="_view data-v-538a6a93 center-list">
+      <view class="_view data-v-538a6a93 center-list-item border-bottom">
+        <text class="_text data-v-538a6a93 list-icon"></text>
+        <text class="_text data-v-538a6a93 list-text">帮助与反馈</text>
+        <text class="_text data-v-538a6a93 navigat-arrow"></text>
+      </view>
+      <view class="_view data-v-538a6a93 center-list-item">
+        <text class="_text data-v-538a6a93 list-icon"></text>
+        <text class="_text data-v-538a6a93 list-text">服务条款及隐私</text>
+        <text class="_text data-v-538a6a93 navigat-arrow"></text>
+      </view>
+    </view>
+    <view class="_view data-v-538a6a93 center-list">
+      <view class="_view data-v-538a6a93 center-list-item">
+        <text class="_text data-v-538a6a93 list-icon"></text>
+        <text class="_text data-v-538a6a93 list-text">关于应用</text>
+        <text class="_text data-v-538a6a93 navigat-arrow"></text>
+      </view>
+    </view>
+  </view>
+</template>

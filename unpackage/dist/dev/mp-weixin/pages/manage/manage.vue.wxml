@@ -1,0 +1,6 @@
+<import src="/components/nav-bar/nav-transparent.vue.wxml" />
+<template name="de509ad6">
+  <view class="_view data-v-c8189b5a">
+    <template data="{{...$root['0'], ...$root[$kk+'zEH-0'],$root}}" is="eedcfde4"></template>
+  </view>
+</template>

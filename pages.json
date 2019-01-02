@@ -1,0 +1,91 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+                "navigationBarBackgroundColor" : "#2ae0c8"
+            }
+        },
+        {
+            "path" : "pages/user/user",
+            "style" : {
+                "navigationBarTitleText" : "个人中心",
+                "navigationBarBackgroundColor" : "#2ae0c8"
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                "navigationBarTitleText" : "查询",
+                "navigationBarBackgroundColor" : "#2ae0c8",
+                //app端禁用原生导航栏
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/manage/manage",
+            "style" : {
+                "navigationBarTitleText" : "管理",
+                "navigationBarBackgroundColor" : "#2ae0c8"
+            }
+        },
+		{
+		    "path" : "pages/index/createqrcode",
+		    "style" : {
+				"navigationBarTitleText" : "生成二维码",
+				"navigationBarBackgroundColor" : "#2ae0c8",
+				"navigationBarTextStyle" : "black"
+			}
+		},
+		{
+		    "path" : "pages/index/scanqrcode",
+		    "style" : {
+				"navigationBarTitleText" : "扫描二维码",
+				"navigationBarBackgroundColor" : "#2ae0c8",
+				"navigationBarTextStyle" : "black"
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "darkgray",
+        "selectedColor" : "#2ae0c8",
+        "borderStyle" : "black",
+        "backgroundColor" : "transparent",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/icon/icon-scan.png",
+                "selectedIconPath" : "static/icon/icon-scan-active.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/manage/manage",
+                "iconPath" : "static/icon/icon-manage.png",
+                "selectedIconPath" : "static/icon/icon-manage-active.png",
+                "text" : "管理"
+            },
+            {
+                "pagePath" : "pages/search/search",
+                "iconPath" : "static/icon/icon-search.png",
+                "selectedIconPath" : "static/icon/icon-search-active.png",
+                "text" : "查找"
+            },
+            {
+                "pagePath" : "pages/user/user",
+                "iconPath" : "static/icon/icon-user.png",
+                "selectedIconPath" : "static/icon/icon-user-active.png",
+                "text" : "我"
+            }
+        ]
+    }
+}
